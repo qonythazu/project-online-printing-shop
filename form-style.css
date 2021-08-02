@@ -102,3 +102,9 @@ footer {
         width: 300px;
     }
 }
+
+@media (max-width : 500px) {
+    .title-startup {
+        font-size: 20px;
+    }
+}

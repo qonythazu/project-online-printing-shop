@@ -130,10 +130,23 @@ footer {
 @media (max-width : 500px) {
     .title-startup {
         font-size: 20px;
+        padding-top: 12px;
+    }
+
+    .main-pic {
+        display: none;
+    }
+
+    footer {
+        line-height: 30px;
     }
 
     .list-jasa img {
         width: 200px;
         height: 150px;
+    }
+
+    .list-kontak div {
+        width: 230px;
     }
 }

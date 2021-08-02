@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form-style.css">
+    <title>Membuat Pesanan ・ Muse's Printech</title>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1 class="title-startup">Muse's Printech</h1>
+            <nav class="navbar-menu">
+                <a href="home-page.html"><img src="assets/home-white.png"></a>
+                <a href="form-pemesanan.html"><img src="assets/pesan-white.png"></a>
+                <a href="profile-page.html"><img src="assets/profile-white.png"></a>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Form Pemesanan</h2>
+            <form class="pesanan-form">
+                <div class="data-diri">
+                    <p>Nama :</p> 
+                    <input type="text" name="nama" id="input-nama">
+                    <p>Alamat (<i>tulis selengkap-lengkapnya</i>) :</p>
+                    <textarea name="alamat" id="input-alamat" cols="30" rows="10"></textarea>
+                    <p>No. HP :</p>
+                    <input type="number" name="hp" id="input-hp">
+                    <p>Email :</p>
+                    <input type="email" name="email" id="input-email">
+                    <p>Upload File :</p>
+                    <input type="file">
+                </div>
+
+                <div class="choose-media">
+                    <p>Media Cetak :</p>
+                    <input type="checkbox" id="check-kertas"> <span>Kertas</span> <br>
+                    <input type="checkbox" id="check-baliho"> <span>Baliho</span> <br>
+                    <input type="checkbox" id="check-poster"> <span>Poster</span> <br>
+                    <input type="checkbox" id="check-mug"> <span>Mug</span> <br>
+                    <input type="checkbox" id="check-kipas"> <span>Kipas :v</span>
+                </div>
+
+                <div class="choose-pengambilan">
+                    <p>Pengambilan :</p>
+                    <input type="checkbox" id="check-ambil"> <span>Ambil Sendiri</span> <br>
+                    <input type="checkbox" id="check-antar"> <span>Diantarkan</span>
+                </div>
+
+                <div class="submit-section">
+                    <p>Jumlah :</p>
+                    <input type="number" name="jumlah" id="input-jumlah">
+                    <button>Pesan</button>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <p>Muse's Printech : Jasa Print Terlengkap dan Terpercaya</p>
+        </footer>
+    </div>
+</body>
+</html>
